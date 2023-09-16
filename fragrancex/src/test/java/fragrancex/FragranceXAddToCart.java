@@ -43,7 +43,7 @@ public class FragranceXAddToCart {
         List<WebElement> allLinks = driver.findElements(By.tagName("a"));
 
         // Create a List to store the href attribute values of the links
-        List<String> linkUrls = new ArrayList<>();
+        List<String> linkUrls = new ArrayList();
         
     
         // Loop through each link and store its href attribute value
@@ -64,7 +64,7 @@ public class FragranceXAddToCart {
         List<WebElement> topPickForYou = driver.findElements(By.cssSelector("#recommended-items > div > div > div > div > div > a > div.desc-section > div.serif.h3"));
         
      // Create a List to store the href attribute values of the links
-        List<String> topPickForYouItem = new ArrayList<>();
+        List<String> topPickForYouItem = new ArrayList();
         // Loop
         for(WebElement name : topPickForYou) {
         	String itemName = name.getText();
