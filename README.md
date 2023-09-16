@@ -34,7 +34,7 @@ actions)*
 
 ### How to execute the test
 - Make sure you checkout on the master branch using `git checkout master`
-- Execute on terminal the `git pull origin staging` to check if the changes is up to date
+- Execute on terminal the `git pull origin master` to check if the changes is up to date
 - Open your Java Eclipse IDE
 - Make sure you update and install dependencies of the maven projects in pom.xml
 - Go to Features folder
