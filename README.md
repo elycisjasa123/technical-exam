@@ -24,7 +24,19 @@ and best practices, version control, knowledge in handling exceptions, locators,
 actions)*
 
 
+
 ### Requirements
 - [Java SDK 11](https://www.oracle.com/java/technologies/downloads/#java11)
 - [Maven](https://maven.apache.org/download.cgi) 
 - [Java Eclipse IDE](https://www.eclipse.org/downloads/packages/installer)
+- Cucumber from Java Eclipse Marketplace
+
+
+### How to execute the test
+- Make sure you checkout on the master branch using `git checkout master`
+- Execute on terminal the `git pull origin staging` to check if the changes is up to date
+- Open your Java Eclipse IDE
+- Make sure you update and install dependencies of the maven projects in pom.xml
+- Go to Features folder
+- Open the AddToCart.feature cucumber file
+- Right click on the file and Run as Cucumber file
